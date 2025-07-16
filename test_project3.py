@@ -58,7 +58,7 @@ def test_responzivita(page: Page):
     assert not prihlasit_link.is_visible()
 
 
-#parametrizoavaný test pokročilého vyhledávání
+#parametrizovaný test pokročilého vyhledávání
 @pytest.mark.parametrize("titul, checkbox, kategorie, nakladatelstvi, vysledek", parametry_vyhledavani)
 def test_pokrocile_vyhledavani(page: Page, titul, checkbox, kategorie, nakladatelstvi, vysledek):
     #přejít do pokročilého vyhledávání
