@@ -1,7 +1,6 @@
 import pytest
 from playwright.sync_api import Page
 from playwright.sync_api import expect
-#from conftest import reject_cookies
 from test_project3_parametrize import parametry_vyhledavani
 
 #test, zda stránka zobrazí chybovou hlášku při pokusu o přihlášení bez hesla
